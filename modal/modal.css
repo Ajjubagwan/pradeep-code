@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(images/.jpg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ..............Navbar CSS............... */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(31, 23, 23, 0.418);
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    display: flex;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+   a:link {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+
+  .active{
+  background-color: gray;
+  color: white;
+  }
+  
+li a:hover {
+    background-color: rgba(16, 16, 15, 0.604);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ li a:visited {
+  background-color: rgba(16, 16, 15, 0.604);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.log{
+  float: right;
+}
+
+/* ..............Modal CSS................. */
+.box{
+  height: 100px;
+  width: 400px;
+  margin-left: 120px;
+  margin-top: 150px;
+  background-color: rgb(9, 121, 141);
+  border-radius: 5px;
+  
+}
+#m_id{
+  background-color: rgb(13, 161, 142);
+ 
+}
+.modal-title{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+
+#u_name{
+  margin-left: 137px;
+}
+#t_num{
+  margin-left: 131px;
+}
+#e_mail{
+  margin-left: 138px;
+}
+#pass{
+  margin-left: 109px;
+}
+#c_pass{
+  margin-left: 51px;
+}
+::placeholder{
+  background-color: aqua;
+}
+
+
+/* ..............................Login CSS..................................... */
+
+#log_email{
+  width: 60%;
+  margin-left: 95px;
+}
+#log_pass{
+  width: 60%;
+  margin-left: 67px;
+}

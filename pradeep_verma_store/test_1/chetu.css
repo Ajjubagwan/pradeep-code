@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .............................................Container-A CSS....................................................... */
+
+.container-a{
+    height: 714px;
+    background-image: url(https://www.chetu.com/img/sliderbg/chetu-home-page-sliderbg.jpg);
+    background-size: cover;
+}
+
+/* ....Header CSS.... */
+
+#ul{
+    margin: 0px;
+    height: 37px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.241);
+    
+}
+#li{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    float: right;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#logo1{
+    top: 0;
+    position: sticky;
+    height: 95px;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 12px;
+    padding: 0px;
+    justify-content: center;
+}
+
+ul {  
+    height: 50px;
+    
+    list-style-type: none;  
+    margin-top: -75px;
+    margin-left: 30px; 
+    margin-right: 50px;
+    left: 2%;
+    overflow: hidden;  
+    background-color: #1bc0c600;
+    
+  }  
+    
+  li {  
+    float: right;
+    display: flex; 
+    
+  }  
+    
+  li a {  
+    font-family: sans-serif;
+    font-weight: 600;
+    display: block;  
+    color: white;  
+    font-size: 15px;  
+    text-align: center;  
+    padding: 10px 7px;  
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    border-radius: 5px; 
+ 
+  }  
+  
+  li a:hover {  
+    background-color: rgba(19, 18, 18, 0);  
+    color: white;  
+  }  
+
+  li button{
+    
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    padding: 6px 5px;
+    margin: 4px;
+    border-radius: 5px;
+    border: 0px;
+    
+  }
+
+.container{
+
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    left: 50px;
+}
+.box{
+    height: 100px;
+    width: 100%;
+    margin-top: 90px;
+    
+}
+
+.container h1{
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-shadow: 0px 3px 15px rgb(0 0 0 / 60%);
+
+}
+.container h2{
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 15px rgb(0 0 0 / 60%) ;
+}
+.btn{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.026);
+    color: white;
+    margin-top: 70px;
+    margin-left: 40%;
+    padding: 8px;
+    border: 3px solid orangered;
+    border-radius: 30px;
+    height: 55px;
+    
+}
+.btn:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 30px;
+}
+.mark{
+    width: 75%;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-top: 150px;
+    margin-left: 12%;
+}
+
+/* ........................................Container-B CSS..................................... */
+
+.container-b{
+    height: 714px;
+}
+
+.heading{
+    
+    height: 50px;
+    width: 60%;
+    color: rgb(11, 126, 126);
+    position: relative;
+    left: 21%;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+
+.all-box{
+    height: 380px;
+    width: 98.5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    
+}
+/* ..............Content-1.............. */
+.box1{
+
+    height: 376px;
+    width: 290px;
+    margin-right: 70px;
+    text-align: justify;
+    
+}
+.box1 h1{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(14, 14, 14);
+    margin-bottom: 15px;
+
+}
+.box1 p1{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(8, 116, 116);
+    justify-content: center;
+}
+#b1{
+    justify-items: center;
+    margin-left: 65px;
+}
+
+/* ............Content-2............... */
+.box2{
+    height: 376px;
+    width: 290px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+    
+
+}
+.box2 h2{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(15, 16, 16);
+    margin-bottom: 15px;
+
+}
+
+.box2 p2{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(8, 116, 116);
+}
+#b2{
+    justify-items: center;
+    height: 87px;
+    margin-left: 85px;
+}
+
+/* .............Content-3.............. */
+.box3{
+    height: 376px;
+    width: 290px;
+    margin-left: 70px;
+    text-align: justify;
+    
+}
+.box3 h3{
+
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(20, 20, 20);
+    margin-bottom: 15px;
+
+}
+.box3 p3{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color:  rgb(8, 116, 116);
+}
+#b3{
+    justify-items: center;
+    height: 87px;
+    margin-left: 92px;
+}
+
+
+
+/* ..........Horizontal Line CSS.......... */
+.v1{
+    height: 240px;
+    border: 2px solid rgb(8, 116, 116);
+    margin-top: 55px;
+}
+.v2{
+    height: 240px;
+    border: 2px solid rgb(8, 116, 116);
+    margin-top: 55px;
+}

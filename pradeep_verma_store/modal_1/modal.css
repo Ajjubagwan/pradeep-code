@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(images/a2.jpg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ..............Navbar CSS............... */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkgrey;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    display: flex;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .active{
+  background-color: gray;
+  color: white;
+  }
+  
+li a:hover {
+    background-color: rgba(16, 16, 15, 0.604);
+    color: white;
+    border-radius: 5px;
+}
+
+.log{
+  float: right;
+}
+
+/* ..............Modal CSS................. */
+.box{
+  height: 100px;
+  width: 400px;
+  margin-left: 120px;
+  margin-top: 150px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  
+}
+#m_id{
+  background-color: blueviolet;
+}
+.modal-title{
+  font-size: 25px;
+  text-align: center;
+}

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(images/a1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* .......................Navbar CSS.......................... */
+
+ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+    background-color: rgba(0, 0, 0, 0.684);  
+  }  
+    
+  li {  
+    float: left;  
+  }  
+    
+  li a {  
+    display: block;  
+    color: rgb(252, 252, 255);  
+    font-size:20px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  } 
+
+  li a:hover {  
+    background-color: white;  
+    color: black; 
+    border-radius: 7px; 
+    text-decoration: none;
+  } 
+
+  li a:visited{
+    text-decoration: none; 
+  }
+
+  .active{  
+    background-color: gray;  
+    color: white;  
+  }
+
+  .active:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .log{
+    float: right;
+    text-decoration: none;
+  }
+  .log:visited{
+    text-decoration: none;
+  }
+
+  /* ..........................Container-1 CSS.......................... */
+
+.box-log{
+    height: 300px;
+    width: 450px;
+    margin-left: 120px;
+    margin-top: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: none;
+    
+}
+
+#log-id{
+    background-color: rgba(137, 43, 226, 0.222);
+    
+}
+
+.modal-header h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+.box{
+    width: 75%;
+    border-bottom: 2px solid purple;
+    margin-left: 56px;
+    
+}
+
+.box i{
+    width: 0px;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+
+.box input{
+    background: none;
+    width: 75%;
+    margin: 11px 0px;
+    outline: none;
+    color: rgb(213, 152, 152);
+    border: none;
+    font-size: 20px;
+    
+}
+
+#em{
+    height: 49px;
+    width: 245px;
+    margin-left: 40px;
+
+}
+
+#pass{
+    height: 49px;
+    width: 245px;
+    margin-left: 40px;
+
+}
+
+
+
+
+/* ...........................Container-2 CSS............................... */
+  .box-reg{
+    height: 300px;
+    width: 450px;
+    margin-left: 120px;
+    margin-top: 150px;
+    margin-right: 25px;
+    border-radius: 5px;
+    
+  }
+  #m_id{
+    background-color: rgba(137, 43, 226, 0.222);
+  }
+  .modal-title{
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  /* .......Registration Input CSS......... */
+
+  input[type="text"]{
+    margin-left: 125px;
+  }
+  input[type="tel"]{
+    margin-left: 119px;
+  }
+  
+  input[type="email"]{
+    margin-left: 126px;
+  }
+  
+  input[type="password"]{
+    margin-left: 97px;
+  }
+
+  input[type="c_password"]{
+    margin-left: 40px;
+  }
+  .reg input{
+    width: 240px;
+  }
+
+  

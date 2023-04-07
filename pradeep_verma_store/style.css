@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .................Login CSS................. */
+
+body{
+    background: url(images/a1.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 250px;
+    width: 350px;
+    border: 3px solid gray;
+    color: rgb(18, 17, 17);
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 35%;
+    background: rgba(33, 36, 33, 0.535);
+    border-radius: 10px;    
+}
+.container h2{
+    font-size: 27px;
+    color: solid white;
+    /* border-bottom: 5px solid blue; */
+    text-align: center;
+    margin: 25px 10px;
+}
+.login{
+    width: 75%;
+    border-bottom: 2px solid purple;
+    margin: 7px 40px;
+    padding: 2px 0px;
+    
+    
+}
+.login input{
+    width: 70%;
+    font-size: 20px;
+    margin: 3px 13px;
+    outline: none;
+    background: transparent;
+    border: none;
+
+}
+.btn{
+    background: rgba(245, 245, 245, 0.459);
+    
+    cursor: pointer;
+    outline: none;
+    margin: 10px 40px;
+    width: 20%;
+    padding: 6px;
+    border-radius: 10px; 
+}
+.login i{
+    width: 20px;
+    float: left;
+    font-size: 25px;
+
+}
+.btn:hover{
+    background-color: rgba(35, 33, 38, 0.702);
+    color: rgb(242, 242, 244);
+}
+
+
+/* ..............Navbar CSS................... */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkgrey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .active{
+  background-color: gray;
+  color: white;
+  }
+  li a:hover {
+    background-color: rgba(16, 16, 15, 0.604);
+    color: white;
+    border-radius: 5px;
+  }
+  .log{
+    float: right;
+  }
+  

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        let array = [];
+        let index = -1;
+        function isEmpty()
+        {
+            if(index == -1)
+                return true;
+            else
+                return false;
+        }
+         function isFull()
+         {
+            if (index == 7)
+                return true
+            else
+                return false
+         }
+
+         function add(x)
+         {
+            if(isFull())
+                document.write("Stack Overflow");
+            else
+            {
+                index++;
+                array[index] = x;
+            }
+         }
+
+         function out()
+         {
+            if(isEmpty())
+                document.write("Stack Underflow");
+            else{
+                index--;
+            }
+         }
+
+        function peek()
+         {
+            return array[index];
+         }
+
+         function display()
+         {
+            for (let x=0; x<= index; x++)
+            {
+                document.write(array[x]);
+            }
+         }
+
+        add(10)
+        add(10)
+        add(10)
+        add(10)
+        add(10)
+        add(10)
+        add(10)
+        add(11)
+        display()
+        peek()
+         
+    </script>
+    
+</body>
+</html>
